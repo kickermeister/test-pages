@@ -9,14 +9,18 @@
 }
 
 @mixin ff--mono($font-weight: normal) {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', monospace;
   font-weight: $font-weight;
 }
 
 // Font sizing
 @mixin fs--title {
-  line-height: 1.5;
-  font-size: 4rem; // 40px
+  //line-height: 1.5;
+  font-size: 7rem;
+}
+
+@mixin fs--subtitle {
+  font-size: 3rem; // 18px
 }
 
 @mixin fs--heading-1 {

@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Grey Theme
+   ========================================================================== */
+
+.t-dark {
+
+  .c-navigation,
+  .c-header {
+    background: $c__dark-blue;
+  }
+
+  .c-article {
+    color: $c__white;
+    background-color: $c__dark-background;
+  }
+
+  .c-article__main *:not(.carousel__control) {
+    color: $c__white;
+    background-color: $c__dark-background;
+  }
+
+  .c-article__main a:not(.c-btn) {
+    color: $c__dark-blue-variant;
+  }
+
+
+
+  .c-footer a {
+    color: $c__dark-blue;
+  }
+}

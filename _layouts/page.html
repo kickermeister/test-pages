@@ -5,10 +5,14 @@ layout: default
   <header class="c-header c-article__header">
     <div class="u-container">
       <h1 class="c-header__title">{{ page.title }}</h1>
+      <h1 class="c-header__margin"> 	&#8212;	 </h1>
+      <p class="c-header__subtitle">{{ page.subtitle }}</p>
     </div>
   </header>
 
   <div class="c-article__main">
+    {% include carousel.html height="50" unit="%" duration="7" %}
+
     {{ content }}
   </div>
 </article>

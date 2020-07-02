@@ -57,3 +57,15 @@
     background: $c__white;
   }
 }
+
+.c-navigation__item_logo {
+  position: relative;
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  &:not(:last-of-type) {
+    margin-right: 2.5rem;
+  }
+
+}
