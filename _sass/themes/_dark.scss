@@ -14,12 +14,10 @@
     background-color: $c__dark-background;
   }
 
-  .c-article__main *:not(.carousel__control) {
-    color: $c__white;
-  }
 
-  .c-article__main a:not(.c-btn) {
-    color: $c__dark-blue;
+
+  .c-article__main a:not(github-corner >) {
+    color: $c__dark-blue-variant;
     font-weight: 700;
     text-decoration: none;
   }
