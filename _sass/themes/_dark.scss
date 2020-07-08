@@ -21,9 +21,22 @@
     color: $c__white;
   }
 
-  .feature{
-    float: left;
-    width: 30%;
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+  .feature {
+    margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .feature img {
+    padding: 4rem;
+    padding-bottom: 1rem;
   }
 
   .github-corner {

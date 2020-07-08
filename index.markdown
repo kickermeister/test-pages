@@ -10,16 +10,21 @@ The EAR Production Suite (EPS) is a set of VST® plugins for digital audio works
 The EAR Production Suite is a joint development of [BBC R&D](https://bbc.co.uk/rd) and [IRT](https://www.irt.de/en/home)
 </div>
 
-<div markdown="1" class="text_section feature">
-Codec-agnostic NGA productions
-</div>
+<div class="features">
+  <div markdown="1" class="text_section feature">
+  <img src="/images/codec-agnostic2.png">
+  Codec-agnostic NGA productions
+  </div>
 
-<div markdown="1" class="text_section feature">
-Loudspeaker setup independent mixing
-</div>
+  <div markdown="1" class="text_section feature">
+  <img src="/images/speaker2.png">
+  Loudspeaker setup independent mixing
+  </div>
 
-<div markdown="1" class="text_section feature">
-Native Audio Definition Model support
+  <div markdown="1" class="text_section feature">
+  <img src="/images/document.png">
+  Native Audio Definition Model support
+  </div>
 </div>
 
 <div style="clear: both;"></div>
@@ -69,5 +74,5 @@ The EPS is designed for REAPER 64-bit, on a 64-bit OS (macOS or Windows)
 <div markdown="1" class="text_section">
 ## Contact
 You can contact the developers of the EAR Production Suite via this mail: tbd@tbd.de
-For feedback, feature request and bug reports, we would appreciate if you submit an [Issues](https://github.com/ebu/ear-production-suite/issues).
+For feedback, feature request and bug reports, we would appreciate if you submit an [Issue](https://github.com/ebu/ear-production-suite/issues) on our Github page.
 </div>
