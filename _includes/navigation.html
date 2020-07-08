@@ -1,9 +1,6 @@
 <nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
   <div class="c-navigation__container u-container">
-    <a class="c-navigation__item_logo" href="https://tech.ebu.ch"><img src="/images/EBU_Logo.png"></a>
-    <a class="c-navigation__item" href="#heading-level-2">Interal Link</a>
-    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Articles</a>
-    <a class="c-navigation__item {% if page.url == '/about/' %}is-active{% endif %}" href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+    <a class="c-navigation__item_logo" href="https://tech.ebu.ch"><img src="/images/ebu_eye.png"></a>
+    <span class="c-header__title">{{ page.title }}</span>
   </div>
 </nav>

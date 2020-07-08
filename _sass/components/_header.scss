@@ -12,10 +12,10 @@
 
 .c-header__title {
   position: relative;
-  @include ff--mono(500);
+  @include ff--mono(400);
   @include fs--title;
-  text-align: center;
   color: $c__white;
+  margin-left: 20px;
 
   span {
     color: rgba(#fff, .5);
@@ -23,7 +23,7 @@
 }
 
 .c-header__margin {
-  @include ff--mono(500);
+  @include ff--mono(400);
   @include fs--title;
   text-align: center;
   color: $c__white;
@@ -32,7 +32,7 @@
 }
 
 .c-header__subtitle {
-  @include ff--mono(500);
+  @include ff--mono(400);
   @include fs--subtitle;
   text-align: center;
   color: $c__white;

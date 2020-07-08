@@ -7,13 +7,10 @@
 }
 
 .c-article__main {
-  max-width: 116rem;  // 1160px
+  max-width: 96rem;  // 960px
   margin-right: auto;
   margin-left: auto;
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
+  padding-top: 12.5rem;
   @include fs--body;
 
   > * {
@@ -35,4 +32,10 @@
   ul, ol {
     margin-left: 40px;
   }
+}
+
+.text_section{
+  background-color: #262626;
+  padding: 2rem;
+  margin-top: 2rem;
 }

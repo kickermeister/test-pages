@@ -3,7 +3,14 @@
    ========================================================================== */
 
 .u-container {
-  max-width: 116rem; // 1160px
+  max-width: 96rem; // 960px
   margin-right: auto;
   margin-left: auto;
+
+  @media screen and (min-width: 601px) {
+    height: 7rem;
+  }
+  @media screen and (max-width: 601px) {
+    height: 5rem;
+  }
 }
