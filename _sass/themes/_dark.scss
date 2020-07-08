@@ -15,8 +15,8 @@
   }
 
   .text_section{
-    background-color: #262626;
-    padding: 2rem;
+    background-color: $c__dark-background-light;
+    padding: 4rem;
     margin-top: 2rem;
     color: $c__white;
   }
@@ -36,12 +36,12 @@
 
   .feature img {
     padding: 4rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
   }
 
   .github-corner {
     fill:#fff;
-    color:#121212;
+    color:$c__dark-background;
     position: absolute;
     border: 0;
     right: 0;
@@ -53,6 +53,16 @@
     }
   }
 
+  .button-grid {
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    display: grid;
+    column-gap: 30rem;
+    row-gap: 2rem;
+  }
+
   .c-article__main a:not(.github-corner) {
     color: $c__dark-blue-variant;
     font-weight: 700;
@@ -62,10 +72,11 @@
   .c-footer {
     background-color: $c__dark-background;
     color: $c__white;
-    padding-top: 0;
+    padding-top: 2rem;
+    margin-top: -1.9rem;
   }
 
   .c-footer a {
-    color: $c__dark-blue;
+    color: $c__dark-blue-variant;
   }
 }

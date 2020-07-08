@@ -69,6 +69,11 @@ The EPS is designed for REAPER 64-bit, on a 64-bit OS (macOS or Windows)
     - macOS: ~/Library/Application Support/REAPER/UserPlugins
 5. Restart REAPER
 6. You should see a new menu option **File -> Create Project from ADM file** now. If you don't see this option and you are using Windows, it might be neccesary to download and install the [Visual C++ 2015 redistributable](https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads) ("vc_redist.x64.exe") from Microsoft.
+
+  <div class="button-grid">
+    <button class="c-btn">Download macOS</button>
+    <button class="c-btn">Download Windows</button>
+  </div>
 </div>
 
 <div markdown="1" class="text_section">
