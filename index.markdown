@@ -37,22 +37,32 @@ The EAR Production Suite is a joint development of [BBC R&D](https://bbc.co.uk/r
 
 <div markdown="1" class="text_section">
 ## Quickstart
-### Import ADM Files
-1. Select in the menu **File -> Create Project from ADM file -> Create from ADM using EAR**
-2. Wait while all ADM elements are being created as tracks and automation curves along with metadata input plugins for each object or channel bed. There will be also tracks and plugins created for the Scene and the Monitoring.
-3. Disable "Master send" for the **Monitoring** track routing and add your hardware output there
-3. Enjoy :)
 
-### Start with session template
-1. Open template in REAPER
-2. You will find a number of tracks with plugins for further usage
-    - Two object tracks
-    - One channel-based track
-    - One EAR Scene bus
-    - Two EAR Monitoring buses, one for Stereo monitoring and one for 5.1
-3. The Scene Plugin has already two audio programmes, one called "English" and one "German"
-4. All metadata connections between the plugins and I/O routings are set. You can start by importing your audio files into the tracks.
-5. Switch between the different renderings by exclusive-soloing (CMD+Alt+Click (MacOS) / Ctrl+Alt+Click (Win)) the monitoring tracks.
+<details>
+  <summary>Import ADM Files</summary>
+  <ol>
+    <li>Select in the menu <b>File -> Create Project from ADM file -> Create from ADM using EAR</b></li>
+    <li>Wait while all ADM elements are being created as tracks and automation curves along with metadata input plugins for each object or channel bed. There will be also tracks and plugins created for the Scene and the Monitoring.</li>
+    <li>Disable "Master send" for the <b>Monitoring</b> track routing and add your hardware output there</li>
+    <li>Enjoy :)</li>
+  </ol>
+</details>
+
+<details>
+  <summary>Start with session template</summary>
+  <ol>
+    <li>Open template in REAPER</li>
+    <li>You will find a number of tracks with plugins for further usage
+      <br>- Two object tracks
+      <br>- One channel-based track
+      <br>- One EAR Scene bus
+      <br>- Two EAR Monitoring buses, one for Stereo monitoring and one for 5.1
+    </li>
+    <li>The Scene Plugin has already two audio programmes, one called "English" and one "German"</li>
+    <li>All metadata connections between the plugins and I/O routings are set. You can start by importing your audio files into the tracks.</li>
+    <li>Switch between the different renderings by exclusive-soloing (CMD+Alt+Click (macOS) / Ctrl+Alt+Click (Win)) the monitoring tracks.</li>
+  </ol>
+</details>
 </div>
 
 <div markdown="1" class="text_section">
@@ -60,7 +70,6 @@ The EAR Production Suite is a joint development of [BBC R&D](https://bbc.co.uk/r
 The EPS is designed for REAPER 64-bit, on a 64-bit OS (macOS or Windows)
   <details>
     <summary>Show installation instructions</summary>
-      <br>
       <ol>
         <li>Install <a href="https://www.reaper.fm/download.php">REAPER</a></li>
         <li>Copy / install the <b>VST plugins</b> into your common VST folder.
@@ -76,7 +85,6 @@ The EPS is designed for REAPER 64-bit, on a 64-bit OS (macOS or Windows)
         <li>You should see a new menu option <b>File -> Create Project from ADM file</b> now. If you don't see this option and you are using Windows, it might be neccesary to download and install the <a href="https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ 2015 redistributable</a> ("vc_redist.x64.exe") from Microsoft.
         </li>
       </ol>
-      <br>
   </details>
 
   <div class="button-grid">

@@ -40,6 +40,7 @@ summary::-webkit-details-marker {
 summary::before {
   padding-right: 1rem;
   content: '\25B8'; /* Instead of Triangle closed */
+  color: $c__dark-background-collapsible;
 }
 details[open] summary::before {
   padding-right: 1rem;
@@ -54,4 +55,9 @@ summary:hover {
 details {
   margin-top: 1rem;
   border: 1px solid $c__dark-background-lighter;
+}
+
+details > ol {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
