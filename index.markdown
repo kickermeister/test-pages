@@ -58,17 +58,26 @@ The EAR Production Suite is a joint development of [BBC R&D](https://bbc.co.uk/r
 <div markdown="1" class="text_section">
 ## Installation
 The EPS is designed for REAPER 64-bit, on a 64-bit OS (macOS or Windows)
-
-1. Install [REAPER](https://www.reaper.fm/download.php)
-2. Copy / install the **VST plugins** into your common VST folder.
-    - Windows: C:\Program Files\Common Files\VST3
-    - macOS: ~/Library/Audio/Plug-Ins/VST3
-3. Open REAPER and go to Options -> Preferences -> Plug-Ins -> VST and click Rescan
-4. Copy / install REAPER ADM **Extension** into the REAPER plugins folder. Ensure you include the ADMPresets subdirectory.
-    - Windows: C:\Program Files\REAPER (x64)\Plugins
-    - macOS: ~/Library/Application Support/REAPER/UserPlugins
-5. Restart REAPER
-6. You should see a new menu option **File -> Create Project from ADM file** now. If you don't see this option and you are using Windows, it might be neccesary to download and install the [Visual C++ 2015 redistributable](https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads) ("vc_redist.x64.exe") from Microsoft.
+  <details>
+    <summary>Show installation instructions</summary>
+      <br>
+      <ol>
+        <li>Install <a href="https://www.reaper.fm/download.php">REAPER</a></li>
+        <li>Copy / install the <b>VST plugins</b> into your common VST folder.
+          <br>- Windows: C:\Program Files\Common Files\VST3
+          <br>- macOS: ~/Library/Audio/Plug-Ins/VST3
+        </li>
+        <li>Open REAPER and go to Options -> Preferences -> Plug-Ins -> VST and click Rescan</li>
+        <li>Copy / install REAPER ADM <b>Extension</b> into the REAPER plugins folder. Ensure you include the ADMPresets subdirectory.
+          <br>- Windows: C:\Program Files\REAPER (x64)\Plugins
+          <br>- macOS: ~/Library/Application Support/REAPER/UserPlugins
+        </li>
+        <li>Restart REAPER</li>
+        <li>You should see a new menu option <b>File -> Create Project from ADM file</b> now. If you don't see this option and you are using Windows, it might be neccesary to download and install the <a href="https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ 2015 redistributable</a> ("vc_redist.x64.exe") from Microsoft.
+        </li>
+      </ol>
+      <br>
+  </details>
 
   <div class="button-grid">
     <button class="c-btn">Download macOS</button>

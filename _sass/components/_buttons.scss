@@ -25,3 +25,33 @@
   display: flex;
   justify-content: space-between;
 }
+
+summary {
+  padding: 1rem;
+  padding-left: 2rem;
+  background-color: $c__dark-background-lighter;
+  list-style: none; /* Triangle not shown */
+}
+
+/* Style für Webkit-Browser */
+summary::-webkit-details-marker {
+  display: none; /* Triangle not shown */
+}
+summary::before {
+  padding-right: 1rem;
+  content: '\25B8'; /* Instead of Triangle closed */
+}
+details[open] summary::before {
+  padding-right: 1rem;
+  content: '\25BE'; /* Instead of Triangle open */
+}
+
+summary:hover {
+  background: $c__dark-background-lighter-hover;
+  cursor: pointer;
+}
+
+details {
+  margin-top: 1rem;
+  border: 1px solid $c__dark-background-lighter;
+}
