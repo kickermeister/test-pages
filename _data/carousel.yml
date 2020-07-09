@@ -1,4 +1,4 @@
 images:
-  - image: {{ site.baseurl }}/images/Mockup_STUDIO2@2x.png
-  - image: {{ site.baseurl }}/images/image1.png
-  - image: {{ site.baseurl }}/images/image2.png
+  - image: images/Mockup_STUDIO2@2x.png
+  - image: images/image1.png
+  - image: images/image2.png
