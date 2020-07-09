@@ -63,6 +63,10 @@
     row-gap: 2rem;
   }
 
+  .button-grid > * {
+    display: grid;
+  }
+
   .c-article__main a:not(.github-corner) {
     color: $c__dark-blue-variant;
     font-weight: 700;
