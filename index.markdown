@@ -12,17 +12,17 @@ The EAR Production Suite is a joint development of [BBC R&D](https://bbc.co.uk/r
 
 <div class="features">
   <div markdown="1" class="text_section feature">
-  <img src="/images/codec-agnostic2.png">
+  <img src="{{ site.baseurl }}/images/codec-agnostic2.png">
   Codec-agnostic NGA productions
   </div>
 
   <div markdown="1" class="text_section feature">
-  <img src="/images/speaker2.png">
+  <img src="{{ site.baseurl }}/images/speaker2.png">
   Loudspeaker setup independent mixing
   </div>
 
   <div markdown="1" class="text_section feature">
-  <img src="/images/document.png">
+  <img src="{{ site.baseurl }}/images/document.png">
   Native Audio Definition Model support
   </div>
 </div>
@@ -88,8 +88,8 @@ The EPS is designed for REAPER 64-bit, on a 64-bit OS (macOS or Windows)
   </details>
 
   <div class="button-grid">
-    <button class="c-btn">Download macOS</button>
-    <button class="c-btn">Download Windows</button>
+    <a href="#"><button class="c-btn">Download macOS</button></a>
+    <a href="#"><button class="c-btn">Download Windows</button></a>
   </div>
 </div>
 
